@@ -1,3 +1,4 @@
+
 import Head from 'next/head'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
@@ -61,7 +62,7 @@ export default function Home() {
             Connect Wallet
           </button>
           <div className={style.details}>
-            You need Webbrowser to be
+            You need Chrome to be
             <br /> able to run this app.
           </div>
         </div>

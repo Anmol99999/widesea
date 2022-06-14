@@ -24,7 +24,7 @@ const Header = () => {
       <Link href="/">
         <div className={style.logoContainer}>
           <Image src={openseaLogo} height={40} width={40} />
-          <div className={style.logoText}>WideSea</div>
+          <div className={style.logoText}>Opensea</div>
         </div>
       </Link>
       <div className={style.searchBar}>
@@ -37,7 +37,7 @@ const Header = () => {
         />
       </div>
       <div className={style.headerItems}>
-        <Link href="/collections/0x66a576A977b7Bccf510630E0aA5e450EC11361Fa">
+        <Link href="/collections/0x4657bD3c64576db4CC8D627aA1D6f58759918156">
           <div className={style.headerItem}> Collections </div>
         </Link>
         <div className={style.headerItem}> Stats </div>
@@ -53,4 +53,5 @@ const Header = () => {
     </div>
   )
 }
+
 export default Header
